@@ -223,13 +223,6 @@ All of the following plots are generated in the notebook output cells.
 
 ---
 
-## Notes Before Submission
-
-- Keep the CSV file alongside the notebook so the data-loading cell can find it.
-- Run the notebook from a fresh kernel using **Restart & Run All** before committing it.
-- The saved correlation-table output in the current notebook shows `NaN` entries. Re-run and verify that cell before quoting individual correlation coefficients in a report or presentation.
-- The results above belong to the recorded split and model settings. They may change if the data, split, preprocessing or model settings are changed.
-- Add the team's real names, GitHub usernames, presentation link and video link before final submission.
 
 ## Presentation and Demo
 
