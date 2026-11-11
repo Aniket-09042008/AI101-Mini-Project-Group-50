@@ -54,6 +54,8 @@ AI101-Mini-Project-Group-50/
 ├── Employee_Attrition_Prediction_Group_50.pdf
 ├── Employee_Attrition_Prediction_Group_50.pptx    
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv
+├── Results
+├── Training_Curve
 ├── requirements.txt
 ├── Video.txt
 └── README.md
@@ -122,19 +124,78 @@ WA_Fn-UseC_-HR-Employee-Attrition.csv
 
 The dataset can be downloaded from the Kaggle link in the Dataset Details section.
 
-### 4. Install dependencies
+### 4. Create the virtual environment
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+``` powershell
+py -m venv .venv
 ```
 
-### 5. Start Jupyter
+If `py` is not recognised, try:
+
+``` powershell
+python -m venv .venv
+```
+
+### 5. Activate the environment
+
+In the VS Code PowerShell terminal, run:
+
+``` powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+#### Error: PowerShell says scripts are disabled
+
+The following error appeared during setup:
+
+``` text
+Activate.ps1 cannot be loaded because running scripts is disabled on this system.
+PSSecurityException
+```
+
+**Solution:** Allow scripts for the current terminal session only:
+
+``` powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then activate again:
+
+``` powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+When activation succeeds, `(.venv)` appears at the beginning of the
+terminal prompt.
+
+
+### 6. Install the project libraries
+
+``` powershell
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+
+### 7. Select the environment in VS Code
+
+1.  Open `Employee_Attrition_Logistic_Regression.ipynb`.
+2.  Click the kernel selector at the top-right.
+3.  Select the Python kernel from `.venv`.
+4.  If it is not listed, run:
+
+``` powershell
+python -m pip install ipykernel
+```
+
+
+### 8. Start Jupyter
 
 ```bash
 jupyter notebook
 ```
 
-### 6. Execute the project
+### 9. Execute the project
 
 1. Open `Employee_Attrition_Logistic_Regression.ipynb`.
 2. Choose **Kernel → Restart & Run All**.
