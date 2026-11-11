@@ -51,6 +51,8 @@ Place the notebook and CSV in the same project folder:
 AI101-Mini-Project-Group-50/
 │
 ├── Employee_Attrition_Logistic_Regression.ipynb
+├── Employee_Attrition_Prediction_Group_50.pdf
+├── Employee_Attrition_Prediction_Group_50.pptx    
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv
 ├── requirements.txt
 └── README.md
