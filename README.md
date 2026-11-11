@@ -226,8 +226,8 @@ All of the following plots are generated in the notebook output cells.
 
 ## Presentation and Demo
 
-- **PPT:** `Add presentation link`
-- **Demo video:** `Add video link (make sure anyone with the link can view it)`
+- **PPT:** (https://github.com/Aniket-09042008/AI101-Mini-Project-Group-50/blob/main/Employee_Attrition_Prediction_Group_50.pdf)
+- **Video:** (https://youtu.be/3szrw4d0LoQ)
 
 ---
 
