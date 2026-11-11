@@ -55,6 +55,7 @@ AI101-Mini-Project-Group-50/
 ├── Employee_Attrition_Prediction_Group_50.pptx    
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv
 ├── requirements.txt
+├── Video.txt
 └── README.md
 ```
 ---
